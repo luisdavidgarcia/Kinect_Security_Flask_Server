@@ -9,11 +9,11 @@ class Kinect360(object):
 	def get_video(self):
 		array,_ = freenect.sync_get_video()
 		array = cv2.cvtColor(array,cv2.COLOR_RGB2BGR)
-		#array = cv2.imencode('.jpg',array)[1].tobytes()
+		ret, array = cv2.imencode('.jpg',array)
 		return array 
 		
 	#function to gather frames	
-	def gather_frames(self):
+	def get_frames(self):
 		image = self.get_video()
 		ret, jpeg = cv2.imencode('.jpg',image)
 		data = []

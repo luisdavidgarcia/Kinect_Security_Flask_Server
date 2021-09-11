@@ -1,6 +1,28 @@
 # Kinect_Security_Flask_Server
 
+A Flask Web App that permits the user use their Xbox 360 Kinect as a survilence camera for their home, room, or general purpose area. 
+
 <img src="KinectApp.png">
+
+<h2>Technologies</h2>
+<ul>
+  <li>Flask</li>
+  <li>Python</li>
+  <li>libfreenect Source Code for Xbox 360 Kinect</li>
+  <li>OpenCV2 </li>
+  <li> Kinect USB Adapater </li>
+  <li> html/css </li>
+</ul>  
+
+<h2>How to Run</h2>
+<ul>
+  <li>Connect Kinect USB Adapter to your Kinect and your Computer/Laptop</li>
+  <li>Install the libfreenect software and OpenCV2 from this <a href="https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/">website<a/>. </li>
+  <li>Install Flask with <code>pip3 install flask</code></li>
+  <li>Clone this repository</li>
+  <li>Run <code>python3 app.py</code> in your terminal to start Flask app</li>
+  <li>Open the link provided in your terminal after you run the Flask app to go the web app where you will see you're Kinect streaming real-time footage.</li>
+</ul>  
 
 
 <h2>Motivation for the Project</h2>

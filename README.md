@@ -1,6 +1,6 @@
 # Kinect_Security_Flask_Server
 
-<img src="">
+<img src="KinectApp.png">
 
 
 <h2>Motivation for the Project</h2>
@@ -9,7 +9,7 @@ Over these past two weeks, I got the opportunity to learn how to turn my Xbox 36
 
 Although the website seems outdated, the only change that must be made is when installing the wrappers to program the Kinect with Python the wrappers must be installed with Python3 or the appropriate version of Python you have installed or else the programs you run will not work properly. After installing OpenCV, I made my Flask App, which was just simple HTML, but when it came to using Flask I spent a whole four days learning how to have the video from the Kinect be streamed from the HTML index file I made.
   
-<img src="">  
+<img src="FlaskApp.png">  
   
 Yet, I found a <a href="https://www.youtube.com/watch?v=vF9QRJwJXJk">tutorial</a> where the host streams live footage from his web cam onto a flask app. The only difference is I need to have the footage stream form the Kinect not my web cam. To only access the Kinect I learned about the “/dev/video*” inputs in Ubuntu, which denote cameras that are plugged in/installed.
 

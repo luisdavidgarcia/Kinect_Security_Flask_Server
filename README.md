@@ -29,9 +29,9 @@ A Flask Web App that permits the user use their Xbox 360 Kinect as a survilence 
 
 Over these past two weeks, I got the opportunity to learn how to turn my Xbox 360 Kinect into a web cam. 
 
-I frist opted for a Raspberry Pi with a camera module, but my Pi only has 1 GB of ram, so the footage would crash and look like this:
+I first opted for a Raspberry Pi with a camera module, but my Pi only has 1 GB of ram, so the footage would crash and look like this:
 
-
+https://user-images.githubusercontent.com/87344382/140658297-47862c56-2efb-45c8-916f-08e239428a72.mp4
 
 I have seen the Kinect be used in many applications in robotics before for guided assistance and 3D scanning, but I wanted to start using it as a security camera to observe when I am away from home. I got to working as soon as the Kinect USB adapter came in, but it was difficult finding any information on what libraries to install to have the Kinect working properly, but thankfully my answers were solved when I found this <a href="https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/">website<a/>.
 

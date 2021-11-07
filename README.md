@@ -31,8 +31,6 @@ Over these past two weeks, I got the opportunity to learn how to turn my Xbox 36
 
 I first opted for a Raspberry Pi with a camera module, but my Pi only has 1 GB of ram, so the footage would crash and look like this:
 
-<video src="kinectRecording.mp4" />
-
 https://user-images.githubusercontent.com/87344382/140658297-47862c56-2efb-45c8-916f-08e239428a72.mp4
 
 However, I then remembed the Kinect being used in many applications in robotics before for guided assistance and 3D scanning.
@@ -52,9 +50,7 @@ Moreover, to access my Kinect’s camera I just had use the videoCapture functio
 I have to capture each frame in order to have the video output in web page (the HTML index file) and using Flask I create another route called “video,” but the route gives a response similar to how an API works because the response returns each frame of the footage as JPEG image, so that the video can properly display in index HTML file.  
 
 Here is a proper demontration of it working, but I just needed to center the video footage to the center of the screen using CSS: 
-  
-<video src="raspberryPiweakCamera.mp4" />  
-  
+    
 https://user-images.githubusercontent.com/87344382/140658404-71a82010-1b0e-4d37-bb18-b2d7a2769631.mp4
 
 

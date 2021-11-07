@@ -27,7 +27,13 @@ A Flask Web App that permits the user use their Xbox 360 Kinect as a survilence 
 
 <h2>Motivation for the Project</h2>
 
-Over these past two weeks, I got the opportunity to learn how to turn my Xbox 360 Kinect into a web cam. I have seen the Kinect be used in many applications in robotics before for guided assistance and 3D scanning, but I wanted to start using it as a security camera to observe when I am away from home. I got to working as soon as the Kinect USB adapter came in, but it was difficult finding any information on what libraries to install to have the Kinect working properly, but thankfully my answers were solved when I found this <a href="https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/">website<a/>.
+Over these past two weeks, I got the opportunity to learn how to turn my Xbox 360 Kinect into a web cam. 
+
+I frist opted for a Raspberry Pi with a camera module, but my Pi only has 1 GB of ram, so the footage would crash and look like this:
+
+
+
+I have seen the Kinect be used in many applications in robotics before for guided assistance and 3D scanning, but I wanted to start using it as a security camera to observe when I am away from home. I got to working as soon as the Kinect USB adapter came in, but it was difficult finding any information on what libraries to install to have the Kinect working properly, but thankfully my answers were solved when I found this <a href="https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/">website<a/>.
 
 Although the website seems outdated, the only change that must be made is when installing the wrappers to program the Kinect with Python the wrappers must be installed with Python3 or the appropriate version of Python you have installed or else the programs you run will not work properly. After installing OpenCV, I made my Flask App, which was just simple HTML, but when it came to using Flask I spent a whole four days learning how to have the video from the Kinect be streamed from the HTML index file I made.
   
